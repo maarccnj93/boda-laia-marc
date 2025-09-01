@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boda Laia y Marc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Laia i Marc</h1>
+        <p>16 de mayo de 2026</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#historia">Nuestra Historia</a></li>
+            <li><a href="#evento">Detalles del Evento</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#viaje">Viaje y Alojamiento</a></li>
+            <li><a href="#regalos">Lista de Regalos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="historia">
+            <h2>Nuestra Historia</h2>
+            <p>Aquí contaremos cómo nos conocimos y nuestra aventura juntos...</p>
+        </section>
+
+        <section id="evento">
+            <h2>Detalles del Evento</h2>
+            <p><strong>Fecha:</strong> 16 de mayo de 2026</p>
+            <p><strong>Lugar:</strong> Pendiente de confirmación.</p>
+            <p><strong>Código de vestimenta:</strong> Formal</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Fotos</h2>
+            <p>Una selección de nuestros momentos favoritos.</p>
+            <div class="gallery-grid">
+                <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300' fill='%23EAE0D5'%3e%3crect width='300' height='300'/%3e%3c/svg%3e" alt="Foto de Laia y Marc 1">
+                <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300' fill='%23EAE0D5'%3e%3crect width='300' height='300'/%3e%3c/svg%3e" alt="Foto de Laia y Marc 2">
+                <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300' fill='%23EAE0D5'%3e%3crect width='300' height='300'/%3e%3c/svg%3e" alt="Foto de Laia y Marc 3">
+            </div>
+        </section>
+
+        <section id="rsvp">
+            <h2>Confirmación de Asistencia</h2>
+            <p>Por favor, confirma tu asistencia antes del 1 de abril de 2026.</p>
+            <form class="rsvp-form">
+                <div class="form-group">
+                    <label for="name">Nombre completo:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label>¿Asistirás?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="asiste-si" name="asistencia" value="si" required>
+                        <label for="asiste-si">Sí, asistiré</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="asiste-no" name="asistencia" value="no">
+                        <label for="asiste-no">No, no podré asistir</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje (opcional):</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Confirmación</button>
+            </form>
+        </section>
+
+        <section id="viaje">
+            <h2>Viaje y Alojamiento</h2>
+            <p>Información sobre hoteles y cómo llegar.</p>
+        </section>
+
+        <section id="regalos">
+            <h2>Lista de Regalos</h2>
+            <p>Vuestra presencia es nuestro mayor regalo. Si aun así deseáis tener un detalle con nosotros...</p>
+            <!-- Aquí iría el enlace a la lista de regalos -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Laia i Marc | 2026</p>
+    </footer>
+
+</body>
+</html>
